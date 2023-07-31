@@ -1,0 +1,776 @@
+        *{
+        margin:0;
+        padding:0;
+        outline:0;
+        }
+
+        /*general*/
+
+        body{
+        height: 500vh;
+        width:100%;
+        background-size: contain;
+        font-family:;
+
+        }
+
+        h1{
+        font-size: 35px;
+        }
+
+
+
+        /*header*/
+
+        header{
+        height: 50px;
+        background:white;
+        position:sticky;
+        top: 0;
+        z-index: 1000;
+        }
+
+        header img{
+        margin-top: 12px;
+        margin-left: 11px;
+        }
+
+        header nav{
+        float:right;
+        margin-top:17px;
+        }
+
+        header nav li{
+        float:left;
+        margin-right: 35px;
+        list-style: none;
+        }
+    
+
+        header nav li a{
+        text-decoration: none;
+        color:black;
+        }
+
+        header nav button{        
+        border: solid 1px green;
+        height: 30px;
+        width:130px;
+        position:relative;
+        bottom:11px;
+        line-height: 10px;
+        color:white;
+        background-color:green;
+        border-bottom-left-radius: 10px;
+        margin-top:5px;
+        margin-right:30px;
+        cursor: pointer;    
+        }
+
+        /*Home*/
+
+        #Home{
+        height: 600px;
+        background-color:#e5f9e7;
+        border-radius:0% 100% 2% 98% / 91% 0% 100% 9% ;
+        
+        }
+
+        #Home div .titre{
+        position: relative;
+        left: 260px;
+        top: 150px;
+        font-size:50px;
+        margin-left: 50px;
+        }
+
+        #Home .titre img{
+            border-radius:100%;
+        }
+
+        #Home div .titre .para{
+        font-size:30px;
+        position: relative;
+        bottom: 40px;
+        }
+
+        #Home div .titre .button1{
+        border: solid 1px green;
+        height: 35px;
+        width:120px;
+        position:relative;
+        bottom:170px;
+        line-height: 10px;
+        color:white;
+        background-color:rgb(9, 58, 9);
+        border-bottom-left-radius: 10px;
+        margin-top:10px;
+        cursor: pointer;
+        }
+
+        #Home .cercle-1{
+        z-index: 5;
+        position: absolute;
+        display: flex;
+        margin-left: 975px;
+        margin-top: -530px;
+        height: 560px;
+        width: 529px;
+        border: solid 1px green;
+        border-radius: 100% 0% 100% 100%;
+        background-color:rgb(90, 175, 90);
+        }
+
+        #Home .cercle-2{
+        z-index: 6;
+        position: absolute;
+        display: flex;
+        border:none;
+        height: 350px;
+        width: 340px;
+        background-color: rgb(198, 255, 198);
+        margin-top: -527px;
+        border-radius: 30% 70% 100% 0% / 0% 0% 100% 100% ;
+        }
+
+        #Home div .titre .ima{
+        z-index:10;
+        position:absolute;
+        display: flex;
+        float: right;
+        margin-left: 690px;
+        margin-top:-670px;
+        height: 540px;
+        width: 700px;
+                
+                
+        }
+
+        #Home div .titre .ima img{
+        border-radius: 100% 0% 100% 100%;
+        }
+
+        #Home .titre .cercle img{
+        border-radius: 100%;
+        }
+          
+        /*About*/
+        #About{
+            height: 440px;     
+        }
+
+        #About .droit .vert1{
+            display: flex;
+            float: left;
+            height: 320px;
+            width: 250px;
+            background-color: #eefeef;
+            margin-left: -275px;
+            border-bottom-left-radius: 50px;
+            
+        }
+
+        #About .droit .vert1 .baton1{
+                display: flex;
+                float:left;
+                height: 130px;
+                width: 80px;
+                background-color: green;
+                margin-left: 128px;
+                margin-top:70px;
+        }
+
+        #About .droit .vert2 .baton2{
+                display:flex;
+                float: left;
+                height: 260px;
+                width: 80px;
+                background-color: green;
+                margin-left: -365px;
+                border-bottom-left-radius: 50px;
+        }
+
+
+        #About .wrapped .droit .vert2 .photo2{
+            position:absolute;
+            margin-left: -400px;
+        }
+        #About .wrapped .droit .vert2 .photo2 img{
+            border-bottom-left-radius: 50px;
+        }
+
+        #About .wrapped .droit .vert1 .photo1{
+           position: absolute;
+           margin-left: 80px;
+           margin-top: 112px;
+        }
+
+        #About .wrapped .droit .vert1 .photo1 img{
+            border-bottom-left-radius: 50px;
+        }
+
+        #About .wrapped .ano{
+            position:absolute;
+            left:10px;
+            margin-top:90px;
+            margin-left:200px;
+            border-radius: 0px;
+        }
+        #About .droit{
+        float:right;
+        margin-top: 150px;
+        margin-right: 400px;
+        font-size:15px;
+        }
+        
+        #About .droit .poid{
+        margin-top:25px;
+        }
+
+        #About .droit .fort{
+        position: relative;
+        left:15px;
+        margin-top:5px;
+                
+        }
+
+        #About .droit .ecrit{
+        margin-top:30px;
+        }
+
+        #About .droit .ecrit p{
+            font-size: 25px;
+            color: rgb(25, 71, 25);
+        }
+
+        #About .droit .ecrit h4{
+            color:#05750d;
+        }
+
+        /*Service*/
+
+        #Service{
+        height: 360px;
+        background-color:#e5f9e7;
+        margin-top:120px;
+        border-radius:1% 99% 0% 100% / 100% 36% 64% 0%  ;
+        
+        }
+
+        #Service .vertcitron{
+        float:left;
+        margin-left:260px;
+        margin-top:70px;
+        }
+
+        #Service .vertcitron p{
+        margin-top: 5px;
+        margin-left: 70px;
+        }
+        #Service .vertcitron h1{
+            margin-left: 70px;
+        }
+        
+        #Service .bou .button1{
+        border: solid 1px green;
+        height: 37px;
+        width:111px;
+        position:relative;
+        bottom:11px;
+        color:white;
+        background-color:rgb(9, 58, 9);
+        border-bottom-left-radius: 10px;
+        margin-top:120px;
+        margin-right:370px;
+        float:right;
+        cursor: pointer;
+        padding-bottom: 2px;    
+        }
+
+        #Service .wrapped .carré1{
+        float:right;
+        position: relative;
+        height:280px;
+        width:225px;
+        background-color:rgb(90, 175, 90);
+        border: solid 1px green;
+        border-bottom-left-radius: 30px;
+        margin-top: 35px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        margin-left: 70px;
+        }
+
+        #Service .wrapped .carré1 img{
+            border-radius: 100%;
+        }
+
+        #Service .wrapped .carré1 .complet .plus1{
+           
+            height: 25px;
+            width: 25px;
+            background-color: rgb(99, 175, 99);
+            border: solid 2px white;
+            margin-left: 100px;
+            margin-top: -5px;
+            border-radius: 100%;
+        }
+        #Service .wrapped .carré1 .complet .trait-1{
+            z-index: 2;
+            position: absolute;
+            display: flex;
+            float: left;
+            height: 13px;
+            width: 1px;
+            background-color: white;
+            margin-left: 114px;
+            margin-top: -21px;       
+    }
+
+        #Service .wrapped .carré1 .complet .trait-2{
+            z-index: 3;
+            position: absolute;
+            display: flex;
+            float:right;
+            height:1px;
+            width:13px;
+            background-color:white;
+            margin-left: 107px;
+            margin-top: -15px;
+    }
+
+        #Service .wrapped .bou .carré2{
+        float:right;
+        position: relative;
+        height:280px;
+        width:225px;
+        background-color:rgb(90, 175, 90);
+        border: solid 1px green;
+        border-bottom-left-radius: 30px;
+        margin-top: 70px;
+        margin-right: 370px;
+        text-align: center;
+        font-size: 14px;
+        color: white;
+        }
+
+        #Service .wrapped .carré2 .plus2{
+           
+            height: 25px;
+            width: 25px;
+            background-color: rgb(99, 175, 99);
+            border: solid 2px white;
+            margin-left: 100px;
+            margin-top: -5px;
+            border-radius: 100%;
+        }
+        #Service .wrapped .carré2 img{
+            border-radius: 100%;
+        }
+        #Service .wrapped .carré2 .point{
+            position:absolute;
+            height: 15px;
+            width: 130px;
+            margin-top:-53px;
+            margin-left:-120px
+        }
+
+        #Service .wrapped .bou .carré2 .complet_2 .trait-3{
+            
+            position: absolute;
+            display: flex;
+            float: left;
+            height: 13px;
+            width: 1px;
+            background-color: white;
+            margin-left: 114px;
+            margin-top: -21px;       
+        }
+        #Service .wrapped .bou .carré2 .complet_2 .trait-4{
+           
+            position: absolute;
+            display: flex;
+            float:left;
+            height: 1px;
+            width: 13px;
+            background-color: white;
+            margin-left: 108px;
+            margin-top: -15px;     
+        }
+           
+        #Service .wrapped .carré3{
+        float:right;
+        position: relative;
+        height:280px;
+        width:225px;
+        background-color:rgb(90, 175, 90);
+        border: solid 1px green;
+        border-bottom-left-radius: 30px;
+        margin-top: 70px;
+        margin-right: 30px;
+        text-align: center;
+        font-size: 14px;
+        color: white;     
+        }
+
+        #Service .wrapped .carré3 .plus3{
+            height: 25px;
+            width: 25px;
+            background-color: rgb(99, 175, 99);
+            border: solid 2px white;
+            margin-left: 100px;
+            margin-top: -6px;
+            border-radius: 100%;
+        }
+        #Service .wrapped .carré3 img{
+            border-radius: 100%;
+        }
+
+        #Service .wrapped .carré3 .complet_3 .trait-5{
+            
+            height: 13px;
+            width: 1px;
+            background-color: white;
+            margin-left: 114px;
+            margin-top: -21px;
+        }
+
+        #Service .wrapped .carré3 .complet_3 .trait-6{
+            height:1px;
+            width:13px;
+            background-color:white;
+            margin-left: 108px;
+            margin-top: -7px;
+        }
+
+        #Service .wrapped .carré3 .trait2{
+            position: absolute;
+            height: 2px;
+            width: 15px;
+            background-color: white;
+            margin-left: 107px;
+            margin-top: -8px;
+        }
+
+        /*Blog*/
+
+        #Blog{
+            height: 1500px;
+            background-color: white;
+        }
+
+        #Blog .para2{
+            margin-top: 90px;
+           float: left;
+           margin-left: 260px;
+           margin-bottom: 100px;
+
+        }
+        #Blog .para2 .taille{
+            font-size: 24px;
+            color:#0d310f;
+        }
+
+        #Blog .para2 .petite2 .gris{
+            font-size:11px;
+            color:#444;
+        }   
+
+        #Blog .para2 .petite{
+            float: left;
+            position: relative;
+            margin-right: 17px;
+        }
+        #Blog .para2 .petite img{
+            border: solid 2px green;
+            border-radius: 20px;
+        }
+
+       #Blog .para2 h1{
+        text-align: center;
+        margin-top:60px; 
+        margin-left: 70px;   
+        }
+
+        #Blog .para2 video{
+            margin-left: 30px;
+        }
+
+        
+       #Blog .para2 .depla1 img{
+        border-radius: 100%;
+        }
+
+       #Blog .para2 .depla2{
+        position:absolute;
+        float: left;
+        margin-top: 70px;
+        margin-left: px;
+        }
+     
+       #Blog .para2 .depla2 p{
+        margin-top: 10px;
+        font-size: 13px;
+        color:rgb(16, 53, 16);
+        }
+       #Blog .para2 .depla2 h4{
+        margin-top: 20px;
+        margin-left: 40px;
+        }
+       #Blog .para2 .depla2 img{
+        border-radius:50px;
+        margin-left: 30px;
+        }
+
+       #Blog .para2 .depla1{
+        margin-left: 150px;
+        }
+
+       #Blog .para2 .depla3{
+        position: absolute;
+        margin-left: 270px;
+        margin-top: 70px;
+        }
+       #Blog .para2 .depla3 p{
+        margin-top: 10px;
+        font-size: 13px;
+        color:rgb(16, 53, 16);
+        }
+       #Blog .para2 .depla3 h4{
+        margin-top: 20px;
+        margin-left: 40px;
+        }
+       #Blog .para2 .depla3 img{
+        border-radius:50px;
+        margin-left: 30px;
+        }
+       
+       #Blog .para2 .depla1{
+        margin-left: 150px;
+        }
+
+       #Blog .para2 .depla4{
+        position: absolute;
+        margin-left: 530px;
+        margin-top: 70px;
+        }
+       
+       #Blog .para2 .depla4 p{
+        margin-top: 10px;
+        font-size: 13px;
+        color:rgb(16, 53, 16);
+        }
+       #Blog .para2 .depla4 h4{
+        margin-top: 20px;
+        margin-left: 40px;
+        }
+       #Blog .para2 .depla4 img{
+        border-radius:50px;
+        margin-left: 30px;
+        }
+
+       /*Contact*/
+
+       #Contact{
+        height:300px;
+        background-color:white;
+        }
+
+       #Contact .font-1{
+        float: left;
+        height: 350px;
+        width: 790px;
+        background-color: rgb(90, 175, 90);
+        margin-left: 280px;
+        border-bottom-left-radius: 100px;
+        margin-top: 40px;
+        
+        }
+
+       #Contact .font-1 .ecrit-1{
+        color: white;
+        margin-left: 60px;
+        margin-top: 65px;
+        }
+
+       #Contact .font-1 .ecrit-1 .button-6{
+        display: flex;
+        border: solid 1px white;
+        height: 30px;
+        width:145px;
+        position:relative;
+        line-height: 10px;
+        color:white;
+        background-color:transparent;
+        cursor: pointer;
+        margin-top: -20px;
+        padding-top: 8px;
+        padding-left: 5px;
+        }
+
+       #Contact .image img{
+        float: right;
+        display: flex;
+        margin-top:-210px;
+        border-bottom-left-radius:100px;
+        }
+    
+       /*footer*/
+
+       footer{
+        height: 850px;
+        background-color:#e5f9e7;
+        border-radius:1% 99% 0% 100% / 100% 15% 85% 0% ;
+        }
+
+       footer .barre .Tr{
+        position: absolute;
+        display: flex;
+        color: rgb(3, 67, 3);
+        margin-top:283px ;
+        margin-left: 290px;
+        font-size: 20px;
+        }
+
+        footer .barre .Tr img{
+            margin-top:-175px;
+            margin-left:-150px;
+        }
+
+        
+        footer .barre1{
+        position:absolute;
+        margin-top: 350px;
+        margin-left: 267px;
+        }
+
+        footer .barre .barre1 ul li{
+    
+        float: left;
+        margin-left: 25px;
+        list-style: none;
+        }
+       
+
+        footer .barre .barre1 ul li a{
+        text-decoration: none;
+        color:#444;
+        }
+
+        footer .barre .logo{
+        display: flex;
+        float:left;
+        margin-top: 423px;
+        margin-left: -778px;
+
+        }
+
+        footer .barre .logo .logo_1 img{
+
+        border-radius: 100% 100% 100% 100%;
+        margin-right: 10px;
+
+        }
+
+        footer .barre .logo .logo_2 img{
+        border-radius: 100% 100% 100% 100%;
+        margin-right: 10px;
+
+        }
+
+        footer .barre .logo .logo_3 img{
+        border-radius: 100% 100% 100% 100%;
+        margin-right: 10px;
+
+        }
+
+        footer .barre .cole{
+        float:right;
+        position:absolute;
+        display: flex;
+        margin-top: 285px;
+        margin-left: 760px;
+        font-size: 20px;
+        
+        }
+
+        footer .barre .button-7{
+        position: absolute;
+        display: flex;
+        height: 34px;
+        width: 310px;
+        border:none;
+        margin-top: 338px;
+        margin-left: 760px;
+        padding-left: 120px;
+        padding-top: 10px;
+        border-bottom-left-radius: 10px;
+        background-color: white;
+        color: #444;
+        cursor: pointer;
+        }
+
+        footer .barre .button-8{
+        position: absolute;
+        display: flex;
+        height: 34px;
+        width: 310px;
+        border: none;
+        margin-top:365px ;
+        margin-left: 760px;
+        padding-top: 10px;
+        padding-left: 128px;
+        border-bottom-left-radius: 10px;
+        background-color:rgb(90, 175, 90);
+        color: white;
+        cursor: pointer;
+        
+        }
+
+        footer .barre h4{
+            position:absolute;
+            display: flex;
+            margin-left:761px;
+            font-size: 12px;
+            color: rgb(11, 78, 11);
+            margin-top: 400px;
+        }
+
+        footer .barre .ecrit{
+            position: absolute;
+            margin-top:770px;
+            margin-left:300px;
+            font-size:15px;
+            color: rgb(11, 78, 11);
+        }
+
+       footer .barre .fleche{
+            position: absolute;
+            float: right;
+            margin-top: 765px;
+            margin-left:300px;
+       }
+        
+
+        
+       
+       
+       
+       
+
+    
+ 
+
+        
+
+     
+            
+            
+
+                
+        
+            
+   
+
+
