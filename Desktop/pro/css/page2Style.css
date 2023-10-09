@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+
+}
+
+header{
+
+    height: 5rem;
+    width: 100%;
+    background-color: black;
+}
+
+header nav{
+    float: right;
+}
+
+header nav ul{
+    display: flex;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+header nav ul li{
+    margin-right: 2rem;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+.image{
+    height: 20rem;
+    width: 20rem;
+    border: 1px solid black;
+    margin-left: 4rem;
+    margin-top: 2rem;
+}
+
+.p{
+    margin-top: 4rem;
+    margin-left: 4rem;
+}
+.s{
+    margin-top: 4rem;
+    margin-left: 4rem;
+
+}
+
+.p{
+    margin-top: 4rem;
+}
+
+footer{
+    height:14rem;
+    width: 100%;
+    background-color: black;
+    margin-top: 25rem;
+    display: flex;
+    justify-content: center;
+    justify-content:space-around ;
+    align-items: center;
+}
+
+footer .logo{
+
+margin-top: -1rem;
+}
+footer .logo img{
+    margin-left: 2rem;
+    height: 40px;
+    width: 40px;
+}
+
+.bank{
+    color: white;
+}
+
+.grand{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+

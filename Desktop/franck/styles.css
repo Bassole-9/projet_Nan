@@ -1,0 +1,96 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+.bloc{
+    padding: 5rem;
+    height: 20rem;
+    width: 30rem;
+    background-color: antiquewhite;
+    margin: 20% auto;
+    box-shadow: 4px 4px 12px;
+}
+
+h1{
+    text-align: center;
+}
+.nan{
+    color: rgb(29, 96, 198);
+
+}
+
+.nom{
+    display: flex;
+    height: 100%;
+    width: 70%;
+
+    
+}
+ input{
+    margin-left:0%;
+    margin: 0 auto;
+    height: 5rem;
+    width: 15rem;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+form{
+    margin-top: 15%;
+}
+
+.blocform{
+    
+}
+
+.button{
+    float: right;
+    margin-top: 20%;
+    border: none;
+    background-color: aquamarine;
+    height: 2rem;
+    width: 5rem;
+    color:blue;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-right: -70px;
+}
+
+.button:hover{
+    color:black;
+    background-color: red;
+    box-shadow: 3px 3px 14px;
+    justify-content: center;
+    float: right;
+}
+
+.mot{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.passe{
+    color: aqua;
+    float: left;
+}
+
+.inscr{
+    float: right;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(122, 24, 24);
+}
