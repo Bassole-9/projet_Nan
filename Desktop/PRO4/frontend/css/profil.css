@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding : 0px;
+    box-sizing: border-box;
+}
+
+
+nav{
+    margin-top: rem;
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    
+}
+
+li{
+    margin-right: 14rem;
+    margin-top: 2rem;
+}
+
+.justifie{
+    margin-right: 10rem;
+}
+
+button{
+    margin-right: 2rem;
+    cursor: pointer;
+}
+
+header{
+    background-color: rgb(77, 77, 226);
+    height: 5rem;
+}
+
+ul a{
+    color: black;
+    text-decoration: none;
+}
+
+
+#deconnexion{
+    background-color: rgb(168, 115, 115);
+    margin-top: 3rem;
+}
+
+.contenaire{
+   justify-content: center;
+    background-color: rgb(159, 161, 185);
+    height: 10rem;
+    width: 25rem;
+    border-radius: 10px;
+}
+.nom{
+    margin-right: 12rem;
+    
+}
+
+.parent-1{
+    display: flex;
+    justify-content: center;
+    margin-top: 10rem;
+}
